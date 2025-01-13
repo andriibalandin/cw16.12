@@ -51,6 +51,7 @@ class Human(Brain, Heart, Legs, Eyes, Mouth):
     def live(self):
         print("Human is alive")
 
-Human.live()
-Human.look()
-Human.speak()
+h1 = Human()
+h1.live()
+h1.look()
+h1.speak()
