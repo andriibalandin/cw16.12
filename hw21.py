@@ -96,6 +96,8 @@ print(Flat2 < 1000000)
 print(Flat1 == Flat2)
 print(20 == Flat1)
 
+#ex 3
+
 from abc import ABC, abstractmethod
 
 class Shape(ABC):
