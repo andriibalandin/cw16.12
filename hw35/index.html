@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinyl Store - Головна</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jsslider.js"></script>
+</head>
+<body>
+<header>
+    <div class="container header-container">
+        <h1 class="logo">Vinyl Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="units.html">Каталог</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <h2>Ласкаво просимо до Vinyl Store!</h2>
+        <p>Найкращий вибір вінілових платівок у всій країні!.</p>
+        <a href="units.html" class="btn">Переглянути каталог</a>
+    </div>
+</section>
+
+<section class="featured-slider">
+    <div class="container">
+        <h2 class="section-title">Рекомендовані товари</h2>
+        <div id="slider">
+            <a href="#" class="control_next">>></a>
+            <a href="#" class="control_prev"><</a>
+            <ul>
+                <li>
+                    <div class="slide-item">
+                        <div class="product">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/4/4a/Architects_-_TSTE%26AB.jpeg">
+                            <h3>НОВИНКА</h3>
+                            <h4>Architects - The Sky, The Earth & All Between (Album: 2025)</h4>
+                            <p>Ціна: $25.99</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slide-item">
+                        <div class="product">
+                            <img src="https://upload.wikimedia.org/wikipedia/uk/2/2e/In_Rainbows_Official_Cover.jpg">
+                            <h3>ЛІДЕР ПРОДАЖ</h3>
+                            <h4>Radiohead - In Rainbows (Album: 2007)</h4>
+                            <p>Ціна: $42.99</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slide-item">
+                        <div class="product">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/b/b6/Avenged_Sevenfold_-_Life_Is_But_a_Dream_cover_art.jpg">
+                            <h3>ЗНИЖКА</h3>
+                            <h4>Avenged Sevenfold - Life Is But A Dream (Album: 2023)</h4>
+                            <p>Ціна: <s>$49.99</s> <b style="color: red">$39.99 (-20%)</b></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="slider_option">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Автопрогравання</label>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Vinyl Store. Всі права захищені.</p>
+    </div>
+</footer>
+
+</body>
+</html>
